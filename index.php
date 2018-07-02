@@ -40,19 +40,19 @@ if(!isset($_SESSION['user'])) {
             <li class="link">
               <a href="#collapse-post" data-toggle="collapse" aria-controls="collapse-post">
                 <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-xs">Article</span>
+                <span class="hidden-sm hidden-xs">Surat</span>
                 <span class="label label-success pull-right hidden-sm hidden-xs">20</span>
               </a>
               <ul class="collapse collapseable" id="collapse-post">
-                <li><a href="new-article.php"> Create New </a></li>
-                <li><a href="articles.php"> View Article </a></li>
+                <li><a href="new-article.php"> Buat Surat Baru </a></li>
+                <li><a href="articles.php"> Lihat Surat </a></li>
               </ul>
             </li>
 
             <li class="link">
               <a href="#collapse-comments" data-toggle="collapse" aria-controls="collapse-comments">
                 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-xs">Comments</span>
+                <span class="hidden-sm hidden-xs">Kode Arsip</span>
                 <span class="label label-success pull-right hidden-sm hidden-xs">20</span>
               </a>
               <ul class="collapse collapseable" id="collapse-comments">
