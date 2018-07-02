@@ -61,6 +61,7 @@ if(isset($_POST['submit'])){
 	<link rel="stylesheet" type="text/css" href="vendor/Login_v12/css/util.css">
 	<link rel="stylesheet" type="text/css" href="vendor/Login_v12/css/main.css">
 	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
 	
@@ -93,7 +94,7 @@ if(isset($_POST['submit'])){
 							</span>
 						</div>
 
-						<div><?php echo $error ?></div>
+						<div class="error_msg"><?php echo $error ?></div>
 
 						<div class="container-login100-form-btn p-t-10">
 							<button class="login100-form-btn" name="submit" value="sumbit" type="">
